@@ -17,7 +17,7 @@ app.use(express.json({ limit: '50mb' }));
 // CONFIG
 // ============================================================================
 
-const TEMPLATE_DIR = path.join(__dirname, '..', 'template');
+const TEMPLATE_DIR = path.join(__dirname, 'template');
 const VERCEL_TOKEN = process.env.VERCEL_TOKEN;
 const VERCEL_TEAM_ID = process.env.VERCEL_TEAM_ID;
 const SUPABASE_URL = process.env.VITE_SUPABASE_URL;
